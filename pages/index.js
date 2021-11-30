@@ -158,7 +158,7 @@ export default function Home() {
        </Card>
        </Row>
      
-    
+    <h6>Version 2021</h6>
  
      </Container>
   
