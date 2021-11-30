@@ -1,6 +1,6 @@
 body {
-	background: linear-gradient(-45deg, #f0dbd5, #ec94b6, #8bcde6, #cff8ef);
-	background-size: 400% 400%;
+	background: linear-gradient(-45deg, #c0bcbb, #f080a5d7, #8bcde6, #cff8ef);
+	background-size: 800% 800%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
    
@@ -20,7 +20,7 @@ body {
 
 
 .wrapper {
-    height: 30vh;
+    height: 28vh;
     /*This part is important for centering*/
     display: flex;
     align-items: center;
@@ -71,11 +71,12 @@ body {
     font-family: monospace;
     font-size: 2em;
     text-align: left;
-    width: 55%;
+    width: 80%;
+    margin-left: 3%;
  }
- h3{
+ ol{
     font-family: monospace;
-    font-size: 1.5em;
+    font-size: 1.6em;
     text-align: left;
   
  }
@@ -87,4 +88,72 @@ body {
 
  .separator{
     background: #919192  ;
+   }
+   .icons{
+   margin-left: 40% !important;
+}
+   .card-2{
+    
+    margin-top: 1% !important;
+    color: #000000;
+    background: #FAFBFC;
+    background: linear-gradient(270deg, #cbccce 0%, rgba(218, 222, 230, 0) 100.97%);
+    text-align: center !important;
+    box-shadow:
+    0 0 40px 10px #fff,  /* inner white */
+    /* 0 0 0 5px #f0f, middle magenta */
+    /* 0 0 5px 5px #0ff; outer cyan */
+  
+   }
+  
+   @media screen
+   and (max-device-width: 490px)
+   and (orientation: portrait){
+     html{
+     
+      width: 190%;
+     
+     
+    }
+    .icons{
+        width: 35% !important;
+        color:rgba(105, 34, 172, 0.815)
+       
+    }
+    .body {
+        background: linear-gradient(-45deg, #c0bcbb, #f080a5d7, #8bcde6, #cff8ef);
+        background-size: 800% 800%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+       
+    }
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    h1{
+        font-family: monospace;
+        font-size: 3em;
+        text-align: center;
+     }
+     h2{
+        font-family: monospace;
+        font-size: 2em;
+        text-align: left;
+      
+     }
+    ol{
+        font-family: monospace;
+        font-size: 1.8em;
+        text-align: left;
+        
+     }
+   
    }
