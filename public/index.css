@@ -65,9 +65,26 @@ body {
  h1{
     font-family: monospace;
     font-size: 3em;
+    text-align: center;
+ }
+ h2{
+    font-family: monospace;
+    font-size: 2em;
+    text-align: left;
+    width: 55%;
  }
  h3{
     font-family: monospace;
     font-size: 1.5em;
+    text-align: left;
   
  }
+ .card{
+    background: linear-gradient(270deg, #cbccce 0%, rgba(218, 222, 230, 0) 100.97%);
+    padding: 5%;
+    margin-top: 5%;
+ }
+
+ .separator{
+    background: #919192  ;
+   }
