@@ -40,11 +40,11 @@ export default function Home() {
           OhYeah!  Influencer and Brand Marketing.   
                                                          
           </h2>
-          <ol>
-            New York, NY
-          </ol>
-          <ol>
+          <h2>
             Front-End Developer
+          </h2>
+          <ol>
+          New York, NY
           </ol>
           <ol>
           October 2021- Present 
@@ -57,11 +57,11 @@ export default function Home() {
           <hr className="separator"></hr>                                                                                                                                                                       
           <h2>New York Life Insurance Company
           </h2>
+          <h2>
+          Financial Services Representative.   
+          </h2>
           <ol>
           New York, NY
-          </ol>
-          <ol>
-          Financial Services Representative.   
           </ol>
          <ol>
          August 2017 - May 2020
@@ -78,11 +78,11 @@ export default function Home() {
           Trade NYC Realty 	                                                                                               New York, NY
           
           </h2>
+          <h2>
+          Realtor 
+          </h2>
           <ol>
           New York, NY
-          </ol>
-          <ol>
-          Realtor 
           </ol>
          <ol>
          May 2016 - May 2017
