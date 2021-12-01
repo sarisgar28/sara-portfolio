@@ -103,6 +103,9 @@ export default function Home() {
            Volunteer at Cabrini Immigrant Services
          </h2>
          <ol>
+           New York, NY
+         </ol>
+         <ol>
            Preparation and review of documents in compliance with Safety Management Systems protocols.
          </ol>
          <ol>
@@ -141,14 +144,13 @@ export default function Home() {
          Cali, Colombia
          </ol>
          <ol>
-          
-         June 2015
+          June 2015
          </ol>
          <ol>Architecture and Fashion Design with a focus on sustainability, efficiency, and environmental impact.</ol>
          
         <h2> Centro Cultural Colombo Americano</h2>
        <ol>Cali, Colombia</ol> 
-       <ol>
+         <ol>
            2005 - 2012
          </ol>
           <ol>
