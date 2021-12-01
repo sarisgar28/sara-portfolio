@@ -37,7 +37,7 @@ export default function Home() {
          <h1> Experience</h1>
          <hr className="separator"></hr>
           <h2> 
-          OhYeah!  Influencer and Brand Marketing.   
+          OhYeah! Influencer and Brand Marketing.   
                                                          
           </h2>
           <h2>
@@ -50,7 +50,7 @@ export default function Home() {
           October 2021- Present 
           </ol>
           <ol>
-          Working along side the marketing team I took a leading role in developing, 
+          Working along side the marketing team, I took a leading role in developing, 
           implementing. and deploying OhYeahs home page.
           </ol>
          
