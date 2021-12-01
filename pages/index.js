@@ -1,46 +1,26 @@
 import { Row, Col, Container, Card} from 'react-bootstrap';
-import { GrLinkedinOption, GrGithub, GrMail } from "react-icons/gr";
-import { FaInstagram, FaDev } from "react-icons/fa";
+
 import Link from 'next/link'
+import Layout from './layout';
 
 
 
 export default function Home() {
  
   return (
+  <Layout>
     <Container>
       
       <Row>
       <Col sm={12} style={{width: '100%' }}>
        <label className="wrapper">
      <label className="typing-demo">
-       Hola! My name is Sara.
+       Hola! My name is Sara!
     </label>
      </label> 
      </Col>
      </Row>
-     <Row>
-      <Col sm={12} className="icons">
-       
-        <a href="https://www.linkedin.com/in/sara-isabel-garcia-51726213b/">
-         <GrLinkedinOption style={{ fontSize: '50px', color: 'rgba(105, 34, 172, 0.815)'   }}/>
-         </a>
-         <a href="https://github.com/sarisgar28">
-         <GrGithub style={{ marginLeft: '1%', fontSize: '40px', color: 'rgba(105, 34, 172, 0.815)'   }}/>
-         </a>
-         <a href="https://www.instagram.com/sarisgar/">
-         <FaInstagram style={{ marginLeft: '1%', fontSize: '40px',color: 'rgba(105, 34, 172, 0.815)'   }}/>
-         </a>
-         <a href="mailto: sarisgar28@gmail.com" >
-          <GrMail style={{ marginLeft: '1%', fontSize: '40px', color: 'rgba(105, 34, 172, 0.815)'   }}/>
-         </a>
-         <a href="https://dev.to/sarisgar28">
-          <FaDev style={{ marginLeft: '1%', fontSize: '40px', color: 'rgba(105, 34, 172, 0.815)'  }}/>
-         </a>
-        
-       </Col>
-      </Row>
-    
+  
     
      
      <Card body className="card" responsive>
@@ -49,21 +29,23 @@ export default function Home() {
        <Col sm={4}>
          <h1> About Me!</h1>
          <hr className="separator"></hr>
-         <ol> I am a NYC based full stack developer with a background in Finance,
-            Architecture and Design. Possess strong team building and 
-            problem solving skills combined with a driven work ethic and desire to
-           constantly learn and expand my knowledge base. Fluent in Spanish and English.
+         <ol> I am a front-end developer with a background in architecture
+            and fashion design, and extensive experience in financial sales and real estate.
          </ol>
        </Col>
        <Col sm={4}>
          <h1> Experience</h1>
          <hr className="separator"></hr>
           <h2> 
-          Frontend Developer at OhYeah!  Influencer’s and Brand’s Marketing.   
-           New York, NY 
-            October 2021- December 2021                                                 
-          
+          OhYeah!  Influencer and Brand Marketing.   
+           New York, NY                                                
           </h2>
+          <ol>
+            Front-End Developer
+          </ol>
+          <ol>
+          October 2021- December 2021  
+          </ol>
           <ol>
           Working along side the marketing team I took a leading role in developing, 
           implementing. and deploying OhYeahs home page.
@@ -72,10 +54,15 @@ export default function Home() {
           Took the leadership role in the project, motivating the creative direction of the home page.
           </ol>  
           <hr className="separator"></hr>                                                                                                                                                                       
-          <h2>New York Life Insurance Company 	New York, NY
-          Financial Services Representative	       August 2017 - May 2020
+          <h2>New York Life Insurance Company New York, NY
+              
           </h2>
-         
+          <ol>
+          Financial Services Representative.   
+          </ol>
+         <ol>
+         August 2017 - May 2020
+         </ol>
           <ol>
             Management of existing professional relationships and development of new, long term business partnerships. 
           </ol>
@@ -86,9 +73,14 @@ export default function Home() {
           <hr className="separator"></hr>
           <h2>
           Trade NYC Realty 	                                                                                               New York, NY
-          Realtor  May 2016 - May 2017
+          
           </h2>
-         
+          <ol>
+          Realtor 
+          </ol>
+         <ol>
+         May 2016 - May 2017
+         </ol>
           <ol>
           Research and client acquisition based on various renters’ preferences in conjunction with market opportunities. 
           </ol>
@@ -98,12 +90,9 @@ export default function Home() {
        </Col>
      </Row>
     
-     </Card>
-    <Row>
-     <Card body className="card-2" responsive>
     
-       <Col sm={3}>
-         <hr className="separator"></hr>
+    <Row>
+      <Col sm={3}>
          <h2>
            Volunteer at Cabrini Immigrant Services
          </h2>
@@ -132,10 +121,24 @@ export default function Home() {
        
          <h2>Flatiron School 	New York, NY</h2>
          <ol>
-         Full Stack Web Development, Ruby on Rails, React, Redux and JavaScript program. 	April 2021
+         Full Stack Web Development, Ruby on Rails, React, Redux and JavaScript program.
+         </ol>
+         <ol>
+         April 2021
          </ol>
          <h2>Universidad San Buenaventura 	Cali, Colombia</h2>
-         <ol>Architecture and Fashion Design with a focus on sustainability, efficiency, and environmental impact.  	June 2015</ol>
+         <ol>Architecture and Fashion Design with a focus on sustainability, efficiency, and environmental impact.</ol>
+         <ol>
+         June 2015
+         </ol>
+        <h2> Centro Cultural Colombo Americano Cali</h2>
+          <ol>
+            Intensive English listening, grammar and speaking classes. 
+         </ol>
+         <ol>
+           2005 - 2012
+         </ol>
+       
        </Col>
        <hr className="separator"></hr>
        <Col sm={3}>
@@ -144,23 +147,23 @@ export default function Home() {
          Boxing and running. 🏃🏻‍♀️ 🥊
          </ol>
          <ol>
-         Visit Art museums 🖼 🎎
+         Visiting Art museums. 🖼 🎎
          </ol>
          <ol>
-         Travel the world ✈️
+         Traveling the world. ✈️
          </ol>
          <ol>
-           Learning new skills 🤓
+           Learning new skills. 🤓
          </ol>
          
        </Col>
-       
-       </Card>
        </Row>
+       </Card>
+      
      
     <h6>Version 2021</h6>
  
      </Container>
-  
+     </Layout>
   )
 }

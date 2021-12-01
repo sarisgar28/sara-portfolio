@@ -1,6 +1,6 @@
 body {
 	background: linear-gradient(-45deg, #c0bcbb, #f080a5d7, #8bcde6, #cff8ef);
-	background-size: 800% 800%;
+	background-size: 1200% 1200%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
    
@@ -20,7 +20,7 @@ body {
 
 
 .wrapper {
-    height: 28vh;
+    height: 20vh;
     /*This part is important for centering*/
     display: flex;
     align-items: center;
@@ -50,48 +50,50 @@ body {
     }
 
   }
-  .redirect-to-portfolio{
-    background: var(--purple)!important ;
-    border-radius: 30px !important ;
-    color: var(--pink) !important ;
-    font-weight: 700 !important;
-    font-size: 25px !important;
-    line-height: 20px !important;
-    border: none !important;
-    
-    margin-left: 12% !important;
-    padding: 7px 17px 8px 18px !important ;
-  }
+  
  h1{
     font-family: monospace;
-    font-size: 3em;
+    font-size: 3.5em;
     text-align: center;
+    line-height: 25px;
+    font-weight: lighter !important;
  }
  h2{
     font-family: monospace;
-    font-size: 2em;
+    font-size: 3em;
     text-align: left;
-    width: 80%;
+    width: 90%;
     margin-left: 3%;
+    font-weight: bold !important;
+   
  }
  ol{
     font-family: monospace;
-    font-size: 1.6em;
+    font-size: 2em;
     text-align: left;
+    
   
  }
  .card{
-    background: linear-gradient(270deg, #cbccce 0%, rgba(218, 222, 230, 0) 100.97%);
+    background: linear-gradient(270deg, #e2e3e675 0%, rgba(218, 222, 230, 0) 100.97%);
     padding: 5%;
     margin-top: 5%;
+   
  }
 
  .separator{
-    background: #919192  ;
+    background: #2323f8  ;
    }
    .icons{
-   margin-left: 40% !important;
+    width: 32% !important;
+    color:rgba(105, 34, 172, 0.815);
+    font-size: 50px;
+   margin-left: 2%;
+   padding-top: 2%;
+   
+   
 }
+  
    .card-2{
     
     margin-top: 1% !important;
@@ -116,15 +118,20 @@ body {
      
     }
     .icons{
-        width: 35% !important;
-        color:rgba(105, 34, 172, 0.815)
+        width: 45% !important;
+        color:rgba(105, 34, 172, 0.815);
+        font-size: 50px;
+        align-items: center !important;
+        padding-top: 5%;
+        padding-bottom: 5%;
+       
        
     }
-    .body {
+    body {
         background: linear-gradient(-45deg, #c0bcbb, #f080a5d7, #8bcde6, #cff8ef);
-        background-size: 800% 800%;
+        background-size: 900% 900%;
         animation: gradient 15s ease infinite;
-        height: 100vh;
+        height: 190vh;
        
     }
     @keyframes gradient {
@@ -140,19 +147,21 @@ body {
     }
     h1{
         font-family: monospace;
-        font-size: 3em;
+        font-size: 5em;
         text-align: center;
      }
      h2{
         font-family: monospace;
-        font-size: 2em;
+        font-size: 3em;
         text-align: left;
+        margin-left: 6%;
       
      }
     ol{
         font-family: monospace;
-        font-size: 1.8em;
+        font-size: 2.8em;
         text-align: left;
+        line-height: 45px;
         
      }
    
