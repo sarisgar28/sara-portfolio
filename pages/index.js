@@ -38,25 +38,28 @@ export default function Home() {
          <hr className="separator"></hr>
           <h2> 
           OhYeah!  Influencer and Brand Marketing.   
-           New York, NY                                                
+                                                         
           </h2>
+          <ol>
+            New York, NY
+          </ol>
           <ol>
             Front-End Developer
           </ol>
           <ol>
-          October 2021- December 2021  
+          October 2021- Present 
           </ol>
           <ol>
           Working along side the marketing team I took a leading role in developing, 
           implementing. and deploying OhYeahs home page.
           </ol>
-          <ol>
-          Took the leadership role in the project, motivating the creative direction of the home page.
-          </ol>  
+         
           <hr className="separator"></hr>                                                                                                                                                                       
-          <h2>New York Life Insurance Company New York, NY
-              
+          <h2>New York Life Insurance Company
           </h2>
+          <ol>
+          New York, NY
+          </ol>
           <ol>
           Financial Services Representative.   
           </ol>
@@ -75,6 +78,9 @@ export default function Home() {
           Trade NYC Realty 	                                                                                               New York, NY
           
           </h2>
+          <ol>
+          New York, NY
+          </ol>
           <ol>
           Realtor 
           </ol>
@@ -119,19 +125,27 @@ export default function Home() {
        <Col sm={3}>
          <h2>Education</h2>
        
-         <h2>Flatiron School 	New York, NY</h2>
+         <h2>Flatiron School</h2>
+         <ol>
+          New York, NY
+          </ol>
          <ol>
          Full Stack Web Development, Ruby on Rails, React, Redux and JavaScript program.
          </ol>
          <ol>
          April 2021
          </ol>
-         <h2>Universidad San Buenaventura 	Cali, Colombia</h2>
+         <h2>Universidad San Buenaventura</h2>
+         <ol>
+         Cali, Colombia
+         </ol>
          <ol>Architecture and Fashion Design with a focus on sustainability, efficiency, and environmental impact.</ol>
          <ol>
+          
          June 2015
          </ol>
-        <h2> Centro Cultural Colombo Americano Cali</h2>
+        <h2> Centro Cultural Colombo Americano</h2>
+       <ol>Cali, Colombia</ol> 
           <ol>
             Intensive English listening, grammar and speaking classes. 
          </ol>
