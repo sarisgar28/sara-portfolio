@@ -129,29 +129,32 @@ export default function Home() {
          <ol>
           New York, NY
           </ol>
+          <ol>
+         April 2021
+         </ol>
          <ol>
          Full Stack Web Development, Ruby on Rails, React, Redux and JavaScript program.
          </ol>
-         <ol>
-         April 2021
-         </ol>
+      
          <h2>Universidad San Buenaventura</h2>
          <ol>
          Cali, Colombia
          </ol>
-         <ol>Architecture and Fashion Design with a focus on sustainability, efficiency, and environmental impact.</ol>
          <ol>
           
          June 2015
          </ol>
+         <ol>Architecture and Fashion Design with a focus on sustainability, efficiency, and environmental impact.</ol>
+         
         <h2> Centro Cultural Colombo Americano</h2>
        <ol>Cali, Colombia</ol> 
+       <ol>
+           2005 - 2012
+         </ol>
           <ol>
             Intensive English listening, grammar and speaking classes. 
          </ol>
-         <ol>
-           2005 - 2012
-         </ol>
+       
        
        </Col>
        <hr className="separator"></hr>
