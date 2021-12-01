@@ -88,7 +88,7 @@ export default function Home() {
          May 2016 - May 2017
          </ol>
           <ol>
-          Research and client acquisition based on various renters’ preferences in conjunction with market opportunities. 
+          Research and client acquisition based on various renters preferences in conjunction with market opportunities. 
           </ol>
           <hr className="separator"></hr>
        </Col>
