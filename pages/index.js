@@ -178,10 +178,7 @@ export default function Home() {
        
        
        </Col>
-         Centro Cultural Colombo Americano
-          Cali, Colombia
-          Intensive English listening, grammar and speaking classes.
-          2005 - 2012
+         
        <hr className="separator"></hr>
        <Col sm={3}>
          <h2>Hobbies</h2>
