@@ -88,7 +88,7 @@ body {
     width: 90% !important;
     color:rgba(105, 34, 172, 0.815);
     font-size: 60px;
-   margin-left: 30%;
+   margin-left: 28%;
    padding-top: 2%;
    
    
@@ -109,27 +109,28 @@ body {
    }
   
    @media screen
-   and (max-device-width: 490px)
+   and (max-device-width: 500px)
    and (orientation: portrait){
      html{
      
-      width: 190%;
+      width: 170%;
      
      
     }
     .icons{
         width: 70% !important;
         color:rgba(105, 34, 172, 0.815);
-        font-size: 80px;
+        font-size: 60px;
         align-items: center !important;
         padding-top: 5%;
         padding-bottom: 5%;
+        
        
        
     }
     body {
         background: linear-gradient(-45deg, #c0bcbb, #f080a5d7, #8bcde6, #cff8ef);
-        background-size: 900% 900%;
+        background-size: 1000% 1000%;
         animation: gradient 15s ease infinite;
         height: 190vh;
        

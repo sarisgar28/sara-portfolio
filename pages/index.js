@@ -13,14 +13,14 @@ export default function Home() {
       
       <Row>
       <Col sm={12} style={{width: '100%' }}>
-       <label className="wrapper">
-     <label className="typing-demo">
-       Hola! My name is Sara!
-    </label>
-     </label> 
-     </Col>
-     </Row>
-  
+        <label className="wrapper">
+          <label className="typing-demo">
+            Hola! My name is Sara.
+          </label>
+         </label> 
+       </Col>
+      </Row>
+    
     
      
      <Card body className="card" responsive>
@@ -34,7 +34,7 @@ export default function Home() {
          </ol>
        </Col>
        <Col sm={4}>
-         <h1> Experience</h1>
+       <h1> Experience</h1>
          <hr className="separator"></hr>
          <h2> 
          SuperNormal Asynchronous System of Record 
@@ -56,11 +56,17 @@ export default function Home() {
           <h2>
             Front-End Developer
           </h2>
+          <hr className="separator"></hr>    
+          <h2> 
+          Frontend Developer at OhYeah!  Influencer’s and Brand Marketing.   
+           New York, NY 
+            October 2021- December 2021                                                 
+         </h2>
           <ol>
           New York, NY
           </ol>
           <ol>
-          October 2021- Present 
+          October 2021- December 2021
           </ol>
           <ol>
           Working along side the marketing team, I took a leading role in developing, 
@@ -172,6 +178,10 @@ export default function Home() {
        
        
        </Col>
+         Centro Cultural Colombo Americano
+          Cali, Colombia
+          Intensive English listening, grammar and speaking classes.
+          2005 - 2012
        <hr className="separator"></hr>
        <Col sm={3}>
          <h2>Hobbies</h2>
@@ -193,7 +203,7 @@ export default function Home() {
        </Card>
       
      
-    <h6>Version 2021</h6>
+    <h6>Version 2022</h6>
  
      </Container>
      </Layout>

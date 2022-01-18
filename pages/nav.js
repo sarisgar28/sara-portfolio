@@ -19,16 +19,16 @@ export default function Navigation(){
             <GrLinkedinOption className="icons-style" style={{ fontSize: '60px', color: 'rgba(105, 34, 172, 0.815)'   }}/>
             </a>
             <a href="https://github.com/sarisgar28">
-            <GrGithub style={{ marginLeft: '5%', fontSize: '60px', color: 'rgba(105, 34, 172, 0.815)'   }}/>
+            <GrGithub style={{ marginLeft: '6%', fontSize: '60px', color: 'rgba(105, 34, 172, 0.815)'   }}/>
             </a>
             <a href="https://www.instagram.com/sarisgar/">
-            <FaInstagram style={{ marginLeft: '5%', fontSize: '60px',color: 'rgba(105, 34, 172, 0.815)'   }}/>
+            <FaInstagram style={{ marginLeft: '6%', fontSize: '60px',color: 'rgba(105, 34, 172, 0.815)'   }}/>
             </a>
             <a href="mailto: sarisgar28@gmail.com" >
-            <GrMail style={{ marginLeft: '5%', fontSize: '60px', color: 'rgba(105, 34, 172, 0.815)'   }}/>
+            <GrMail style={{ marginLeft: '6%', fontSize: '60px', color: 'rgba(105, 34, 172, 0.815)'   }}/>
             </a>
             <a href="https://dev.to/sarisgar28">
-            <FaDev style={{ marginLeft: '5%', fontSize: '60px', color: 'rgba(105, 34, 172, 0.815)'  }}/>
+            <FaDev style={{ marginLeft: '6%', fontSize: '60px', color: 'rgba(105, 34, 172, 0.815)'  }}/>
             </a>
             
         </Col>
