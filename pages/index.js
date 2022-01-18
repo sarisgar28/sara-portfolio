@@ -29,13 +29,26 @@ export default function Home() {
        <Col sm={4}>
          <h1> About Me!</h1>
          <hr className="separator"></hr>
-         <ol> I am a front-end developer with a background in architecture
+         <ol> I am a full-stack developer with a background in architecture
             and fashion design, and extensive experience in financial sales and real estate.
          </ol>
        </Col>
        <Col sm={4}>
          <h1> Experience</h1>
          <hr className="separator"></hr>
+         <h2> 
+         SuperNormal Asynchronous System of Record 
+                                                         
+          </h2>
+          <h2>
+            Software Engineer
+          </h2>
+          <ol>
+          New York, NY
+          </ol>
+          <ol>
+         December 2021- January 2022
+          </ol>
           <h2> 
           OhYeah! Influencer and Brand Marketing.   
                                                          

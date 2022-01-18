@@ -85,10 +85,10 @@ body {
     background: #2323f8  ;
    }
    .icons{
-    width: 32% !important;
+    width: 90% !important;
     color:rgba(105, 34, 172, 0.815);
-    font-size: 50px;
-   margin-left: 2%;
+    font-size: 60px;
+   margin-left: 30%;
    padding-top: 2%;
    
    
@@ -118,9 +118,9 @@ body {
      
     }
     .icons{
-        width: 45% !important;
+        width: 70% !important;
         color:rgba(105, 34, 172, 0.815);
-        font-size: 50px;
+        font-size: 80px;
         align-items: center !important;
         padding-top: 5%;
         padding-bottom: 5%;
