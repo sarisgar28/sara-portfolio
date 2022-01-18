@@ -120,10 +120,11 @@ body {
     .icons{
         width: 70% !important;
         color:rgba(105, 34, 172, 0.815);
-        font-size: 60px;
+        font-size: 40px;
         align-items: center !important;
         padding-top: 5%;
         padding-bottom: 5%;
+        margin-left: 20%;
         
        
        
