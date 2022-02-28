@@ -1,9 +1,17 @@
 body {
-	background: linear-gradient(-45deg, #c0bcbb, #f080a5d7, #8bcde6, #cff8ef);
+	background: linear-gradient(-45deg, #c7b4c7, #faf1f4d7, #b9ced6, #cacaca);
 	background-size: 1300% 1300%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
    
+}
+.myImage{
+ border-image: transparent;
+ border-image-outset: unset;
+ border-image: none;
+ border-radius: 15%;
+ margin-left: 41%;
+ padding-top: 2%;
 }
 
 @keyframes gradient {
@@ -86,7 +94,6 @@ body {
    }
    .icons{
     width: 90% !important;
-    color:rgba(105, 34, 172, 0.815);
     font-size: 60px;
    margin-left: 28%;
    padding-top: 2%;
@@ -129,8 +136,16 @@ body {
        
        
     }
+    .myImage{
+      border-image: transparent;
+      border-image-outset: unset;
+      border-image: none;
+      border-radius: 15%;
+      margin-left: 30%;
+      padding-top: 1%;
+     }
     body {
-        background: linear-gradient(-45deg, #c0bcbb, #f080a5d7, #8bcde6, #cff8ef);
+        background: linear-gradient(-45deg, #c7b4c7, #faf1f4d7, #b9ced6, #cacaca);
         background-size: 1000% 1000%;
         animation: gradient 15s ease infinite;
         height: 190vh;
@@ -166,5 +181,6 @@ body {
         line-height: 45px;
         
      }
+     
    
    }
