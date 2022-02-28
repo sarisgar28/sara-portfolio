@@ -37,25 +37,14 @@ export default function Home() {
        <h1> Experience</h1>
          <hr className="separator"></hr>
          <h2> 
-         SuperNormal Asynchronous System of Record 
-                                                         
-          </h2>
-          <h2>
-            Software Engineer
-          </h2>
+          Software Engineer at SuperNormal Asynchronous System of Record 
+         </h2>
           <ol>
           New York, NY
           </ol>
           <ol>
-         December 2021- January 2022
+         December 2021- February 2022
           </ol>
-          <h2> 
-          OhYeah! Influencer and Brand Marketing.   
-                                                         
-          </h2>
-          <h2>
-            Front-End Developer
-          </h2>
           <hr className="separator"></hr>    
           <h2> 
           Frontend Developer at OhYeah!  Influencer’s and Brand Marketing.   
