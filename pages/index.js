@@ -11,7 +11,7 @@ export default function Home() {
       
       <Row>
       <Col sm={12} style={{width: '100%' }}>
-      <img  className="myImage" src="me.jpeg" alt="Sara" width="250" height="350" />
+      <img  className="myImage" src="me.jpeg" alt="Sara" width="220" height="350" />
         <label className="wrapper">
           <label className="typing-demo">
             Hola, My name is Sara!
