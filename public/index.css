@@ -143,6 +143,7 @@ body {
       border-radius: 15%;
       margin-left: 31%;
       padding-top: 1%;
+      padding-left: 4%;
      }
     body {
         background: linear-gradient(-45deg, #c7b4c7, #faf1f4d7, #b9ced6, #cacaca);
@@ -169,16 +170,16 @@ body {
      }
      h2{
         font-family: monospace;
-        font-size: 3em;
+        font-size: 3.2em;
         text-align: left;
         margin-left: 6%;
       
      }
     ol{
         font-family: monospace;
-        font-size: 2.8em;
+        font-size: 3.1em;
         text-align: left;
-        line-height: 45px;
+        line-height: 49px;
         
      }
      
