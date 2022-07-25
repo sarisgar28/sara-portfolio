@@ -1,6 +1,7 @@
 import { Row,  Col, Nav, FormControl, Button, Navbar } from 'react-bootstrap'
 import { GrLinkedinOption, GrGithub, GrMail } from "react-icons/gr";
 import { FaInstagram, FaDev } from "react-icons/fa";
+import Resume from './resume'
   
 
 
@@ -33,9 +34,9 @@ export default function Navigation(){
             
         </Col>
         
-        <Col>
-        <a href="/Users/saragarcia/workspace/sara-portfolio/public/resume.pdf" target="_blank" ><button>Download CV</button></a>
-        </Col>
+        {/* <Col>
+            {/* <Resume/> */}
+        {/* </Col> */}
         </Row>
                         
 
