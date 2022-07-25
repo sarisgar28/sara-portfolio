@@ -34,6 +34,20 @@ export default function Home() {
        </Col>
        <Col sm={4}>
        <h1> Experience</h1>
+       <hr className="separator"></hr>
+         <h2> 
+          Provisioning Engineer
+         </h2>
+         <ol>
+          Installing software for employees as well as distributing machines
+          by doing an unique process of configuration for each company.
+          </ol>
+          <ol>
+          New York, NY
+          </ol>
+          <ol>
+         May 2022 - August 2022
+          </ol>
          <hr className="separator"></hr>
          <h2> 
           Software Engineer at SuperNormal Asynchronous System of Record 
@@ -42,19 +56,19 @@ export default function Home() {
           New York, NY
           </ol>
           <ol>
-         December 2021- February 2022
+         December 2021 - February 2022
           </ol>
           <hr className="separator"></hr>    
           <h2> 
           Frontend Developer at OhYeah!  Influencer’s and Brand Marketing.   
            New York, NY 
-            October 2021- December 2021                                                 
+            October 2021 - December 2021                                                 
          </h2>
           <ol>
           New York, NY
           </ol>
           <ol>
-          October 2021- December 2021
+          October 2021 - December 2021
           </ol>
           <ol>
           Working along side the marketing team, I took a leading role in developing, 
