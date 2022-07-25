@@ -33,6 +33,9 @@ export default function Navigation(){
             
         </Col>
         
+        <Col>
+        <a href="/Users/saragarcia/workspace/sara-portfolio/public/resume.pdf" target="_blank" ><button>Download CV</button></a>
+        </Col>
         </Row>
                         
 
